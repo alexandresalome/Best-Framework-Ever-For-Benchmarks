@@ -12,9 +12,14 @@
  */
 class indexTest extends \PHPUnit_Framework_TestCase
 {
-    public function testIndex()
+    public function testHello()
     {
-        $this->assertEquals('Hello world!'."\n", $this->loadIndexFile());
+        $this->assertEquals(0, strpos($this->loadIndexFile(), 'Hello'));
+    }
+
+    public function testWorld()
+    {
+        $this->assertEquals(6, strpos($this->loadIndexFile(), 'world'));
     }
 
     private function loadIndexFile()
