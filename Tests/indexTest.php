@@ -5,10 +5,6 @@
  * (c) Alexandre Salomé <alexandre.salome@gmail.com>
  */
 
-namespace BeSimple\SoapBundle\Tests\Soap;
-
-use BeSimple\SoapBundle\Soap\SoapRequest;
-
 /**
  * UnitTest for index.html.
  *
